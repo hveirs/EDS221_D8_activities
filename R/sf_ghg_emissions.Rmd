@@ -1,0 +1,25 @@
+---
+title: "Best Data Viz"
+author: "Hailey Veirs"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(sf)
+```
+
+```{r}
+sf_data <- read_csv(here("data", "San_Francisco_Communitywide_Greenhouse_Gas_Inventory.csv"))
+
+```
+
+```{r}
+#ghg_emissions_sector <- sf_data |>
+
+```
+
+
